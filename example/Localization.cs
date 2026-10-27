@@ -57,6 +57,17 @@ public partial class Localization : Node
         return key;
     }
 
+    /// <summary>
+    /// Get a translated string and fill in placeholders.
+    /// Example: Localization.T("welcome", "Ahmet", 42)
+    /// </summary>
+    public static string T(string key, params object[] args)
+    {
+        string text = T(key);
+
+        return args.Length > 0? string.Format(System.Globalization.CultureInfo.InvariantCulture, text, args) : text;
+    }
+
     /// <summary>Switch language: Localization.SetLanguage("de")</summary>
     public static void SetLanguage(string code)
     {

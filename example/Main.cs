@@ -58,7 +58,7 @@ public partial class Main : Control
 
     private void RefreshTexts()
     {
-        _title.Text = Localization.T("demo.title");
+        _title.Text = Localization.T("demo.title", "test1", "test2");
         _hint.Text = Localization.T("demo.hint");
     }
 }

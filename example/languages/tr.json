@@ -1,5 +1,5 @@
 {
-    "demo.title": "Yerelleştirme örneği",
+    "demo.title": "Yerelleştirme örneği - {0} Parametre 1, {1} Parametre 2",
     "demo.hint": "Aşağıdan bir dil seç",
     "lang.en": "English",
     "lang.de": "Deutsch",

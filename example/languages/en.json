@@ -1,5 +1,5 @@
 {
-    "demo.title": "Localization example",
+    "demo.title": "Localization example - {0} Parameter 1, {1} Parameter 2",
     "demo.hint": "Pick a language from the dropdown",
     "lang.en": "English",
     "lang.de": "Deutsch",
