@@ -9,7 +9,7 @@ I wrote this because I didn't want to pull a whole addon into my project just to
 - reads plain `.json` files from `res://languages/` (`en.json`, `de.json`, ...)
 - picks the system language on startup, falls back to english if there's no file for it
 - `Localization.T("menu.quit")` returns the string in the current language
-- supports placeholders for dynamic values, e.g. Localization.T("welcome", "Dennis", 42)
+- supports placeholders for dynamic values, e.g. `Localization.T("welcome", "Dennis", 42)`
 - missing keys return the key itself and print one warning (once, not every frame)
 - `LanguageChanged` event so your UI can rebuild itself after a language switch
 
