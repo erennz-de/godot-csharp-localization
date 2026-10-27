@@ -2,6 +2,7 @@ using Godot;
 
 // Minimal demo: a title, a hint and a dropdown to switch the language.
 // UI is built in code on purpose, keeps the .tscn from getting noisy.
+// Warning: It may not fill your complete screen! Its just a test demo.
 public partial class Main : Control
 {
     private Label _title = null!;
