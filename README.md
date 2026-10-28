@@ -43,7 +43,7 @@ That's all. New files are picked up automatically, nothing to register.
 GetNode<Label>("Labels/Quit").Text = Localization.T("menu.quit");
 
 // formatted translations
-string welcome = Localization.T("welcome", "Ahmet", 42);
+string welcome = Localization.T("welcome", "Dennis", 42);
 
 // switch language at runtime
 Localization.SetLanguage("de");
